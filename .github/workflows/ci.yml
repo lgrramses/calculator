@@ -59,7 +59,7 @@ jobs:
 
       - name: Run Trivy vulnerability scanner in filesystem mode
         continue-on-error: true
-        uses: aquasecurity/trivy-action@b3dafe507ffa004210975439a1e6156b8ebb3f50
+        uses: aquasecurity/trivy-action@master
         with:
           scan-type: 'fs'
           scan-ref: '.'
